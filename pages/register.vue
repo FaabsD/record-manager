@@ -1,6 +1,7 @@
 <template>
-    <div class="bg-gray-50">
-        <h1>Register</h1>
-    </div>
-    
+    <NuxtLayout>
+        <template #content class="prose-zinc">
+           <PageHeading pageTitle="Register"/>
+        </template>
+    </NuxtLayout>
 </template>
